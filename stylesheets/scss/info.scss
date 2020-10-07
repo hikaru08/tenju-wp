@@ -1,0 +1,218 @@
+.info{
+  &__title{
+    text-align: center;
+    margin-top: 2.5rem;
+    span{
+      color: #fff;
+      line-height: 2.5rem;
+      font-size: 1.3rem;
+      display: block;
+      background-color: orange;
+    }
+  }
+  &__form{
+    background-color: #fdf5e5;
+    padding: 2rem;
+    &__address, &__detail, &__name, &__number, &__mail{
+      display: flex;
+      justify-content: center;
+      p{
+        word-break: break-all;
+      }
+      &__title{
+        border-right: lightgray solid 1px;
+        display: block;
+        width: 40%;
+        padding-left: 5rem;
+        .must{
+          color: #fff;
+          font-size: 0.8rem;
+          background-color: red;
+          padding: 0.2rem;
+          border-radius: 0.1rem;
+        }
+        .self{
+          color: #fff;
+          font-size: 0.8rem;
+          background-color: gray;
+          padding: 0.2rem;
+          border-radius: 0.1rem;
+        }
+      }
+      &__content{
+        display: block;
+        width: 60%;
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+        .form-box{
+          margin-bottom: 1rem;
+          padding: 0.5rem;
+          border: 1px solid lightgray;
+          width: 100%;
+        }
+        &__post{
+          display: flex;
+          span{
+            margin: 0.5rem;
+          }
+          .postcode-box{
+            height: 2.5rem;
+            width: 5.5rem;
+          }
+        }
+        .select-box::before{
+          position: absolute;
+          right: 1rem;
+          top: 1.2rem;
+          border-top: 10px gray solid;
+          border-right: 8px transparent solid;
+          border-left: 8px transparent solid;
+          content: '';
+        }
+        .select-box{
+          position: relative;
+          width: 100%;
+          .prefecture-box:hover{
+            cursor: pointer;
+          }
+          .prefecture-box{
+            width: 100%;
+            padding: 10px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: #fff;
+            border-radius: 0;
+          }
+        }
+        .city-box, .address-box{
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__submit{
+    &__attention{
+      overflow-y: scroll;
+      margin: 2rem auto 0 auto;
+      max-width: 50rem;
+      height: 15rem;
+      border: solid 1px lightgray;
+      &__text{
+        padding: 2rem 1rem;
+        span{
+          margin-top: 1rem;
+          display: block;
+        }
+        .title{
+          margin-top: 0;
+          text-align: center;
+        }
+        .sub-title{
+          text-align: center;
+          border-bottom: 1px solid orange;
+        }
+        .discription{
+          font-weight: normal;
+        }
+      }
+    }
+    &__check{
+      margin-top: 2rem;
+      text-align: center;
+    }
+    &__button{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 1rem;
+      .submit-btn:hover, .btn-primary:hover{
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        padding: 1.2rem 2rem;
+        border: darkorange solid 1px;
+        background: #fff;
+        color: darkorange;
+      }
+      .submit-btn , .btn-primary{
+        margin: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        padding: 1.2rem 2rem;
+        border: darkorange solid 1px;
+        background: darkorange;
+        color: #fff;
+        transition: .3s;
+      }
+    }
+  }
+}
+.info-discription{
+  margin-top: 1rem;
+  text-align: center;
+}
+.info-error{
+  margin-top: 1.5rem;
+  color: red;
+  .error{
+    ul{
+      padding: 0;
+      margin: 0;
+      li{
+        text-align: center;
+      }
+    }
+  }
+}
+@media screen and (max-width:1023px){
+  .info{
+    &__form{
+      &__address, &__detail, &__name, &__number, &__mail{
+        display: block;
+        p{
+          word-break: break-word;
+        }
+        &__title{
+          margin-bottom: 1rem;
+        }
+        &__title, &__content{
+          border: none;
+          width: 100%;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+.confirm-main{
+  &__center
+    table{
+      width: 100%;
+    }
+    
+    table th{
+      position: relative;
+      text-align: left;
+      width: 15%;
+    }
+    
+    table th:after{
+      display: block;
+      content: "";
+      width: 30px;
+      height: 2px;
+      background-color: #333;
+      position: absolute;
+      top:calc(50% - 1px);
+      right:20px;
+    }
+    
+    table td{
+      text-align: left;
+      width: 85%;
+    }
+}

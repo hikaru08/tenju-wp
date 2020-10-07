@@ -14,7 +14,7 @@
 <body>
 <div class='header'>
 <div class='header__left'>
-<a class="header__left__logo" href="/"><img alt="ロゴ" class="logo" src="<?php echo get_template_directory_uri()?>/images/logo.png" width="55" height="55" />
+<a class="header__left__logo" href="<?php echo home_url(); ?>"><img alt="ロゴ" class="logo" src="<?php echo get_template_directory_uri()?>/images/logo.png" width="55" height="55" />
 <img alt="ロゴ" class="logo_text" src="<?php echo get_template_directory_uri()?>/images/logo_text.png" width="100" height="60" />
 </a></div>
 <div class='header__right'>
@@ -25,61 +25,54 @@
 </div>
 <ul class='header__right__list'>
 <li>
-<a href="/root/recovery">遺品整理
+<a href="<?php echo home_url("遺品整理"); ?>">遺品整理
 </a></li>
 <li>
-<a href="/root/cleaning">家財整理
+<a href="<?php echo home_url("家財整理"); ?>">家財整理
 </a></li>
 <li>
-<a href="/root/lifesupport">生活サポート
+<a href="<?php echo home_url("生活サポート"); ?>">生活サポート
 </a></li>
 <li>
-<a href="/root/plan">料金一覧
+<a href="<?php echo home_url("料金一覧"); ?>">料金一覧
 </a></li>
 <li>
-<a href="/root/performance">作業事例
+<a href="<?php echo home_url("作業事例"); ?>">作業事例
 </a></li>
 <li>
-<a href="/root/company">会社概要
+<a href="<?php echo home_url("会社概要"); ?>">会社概要
 </a></li>
-<a class="info-button" href="/root/info">ご相談・お見積り</a>
+<a class="info-button" href="<?php echo home_url("お問い合わせ"); ?>">ご相談・お見積り</a>
 </ul>
 </div>
 </div>
 <div class='navi'>
 <ul>
 <li>
-<a href="">トップページ
+<a href="<?php echo home_url("遺品整理"); ?>">遺品整理
 </a></li>
 <li>
-<a href="/">トップページ
+<a href="<?php echo home_url("家財整理"); ?>">家財整理
 </a></li>
 <li>
-<a href="/root/recovery">遺品整理
+<a href="<?php echo home_url("生活サポート"); ?>">生活サポート
 </a></li>
 <li>
-<a href="/root/cleaning">家財整理
+<a href="<?php echo home_url("料金一覧"); ?>">料金一覧
 </a></li>
 <li>
-<a href="/root/lifesupport">生活サポート
+<a href="<?php echo home_url("作業事例"); ?>">作業事例
 </a></li>
 <li>
-<a href="/root/plan">料金一覧
+<a href="<?php echo home_url("会社概要"); ?>">会社概要
 </a></li>
-<li>
-<a href="/root/performance">作業事例
-</a></li>
-<li>
-<a href="/root/company">会社概要
-</a></li>
-<li>
-<a href="/root/info">ご相談・お見積り
+<li><a href="<?php echo home_url("お問い合わせ"); ?>">ご相談・お見積り
 </a></li>
 </ul>
 </div>
 <div class='header-responsive'>
 <div class='header-responsive__left'>
-<a href="/"><div class='logo'>
+<a href="<?php echo home_url(); ?>"><div class='logo'>
 <img alt="ロゴ" height="30" width="30" class="mark" src="<?php echo get_template_directory_uri()?>/images/logo.png" />
 <img alt="ロゴ" height="38" width="72" class="text" src="<?php echo get_template_directory_uri()?>/images/logo_text.png" />
 </div>

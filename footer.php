@@ -12,30 +12,30 @@
 <nav class='main-footer__contents__nav'>
 <ul class='main-footer__contents__nav__list'>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/">トップページ</a>
+<a href="<?php echo home_url(); ?>">トップページ</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/root/recovery">遺品整理</a>
+<a href="<?php echo home_url("遺品整理"); ?>">遺品整理</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/root/cleaning">家財整理</a>
+<a href="<?php echo home_url("家財整理"); ?>">家財整理</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/root/lifesupport">生活支援</a>
+<a href="<?php echo home_url("生活支援"); ?>">生活支援</a>
 </li>
 </ul>
 <ul class='main-footer__contents__nav__list ul-last'>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/root/plan">料金一覧</a>
+<a href="<?php echo home_url("料金一覧"); ?>">料金一覧</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/root/performance">実績紹介</a>
+<a href="<?php echo home_url("実績紹介"); ?>">実績紹介</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/root/company">会社概要</a>
+<a href="<?php echo home_url("会社概要"); ?>">会社概要</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
-<a href="/root/info">ご相談・お見積り</a>
+<a href="<?php echo home_url("お問い合わせ"); ?>">ご相談・お見積り</a>
 </li>
 </ul>
 </nav>
@@ -52,7 +52,7 @@
 <p class='footer__contents__info__tel' style="background: url(<?php echo get_template_directory_uri()?>/images/freecall.png) no-repeat left center;">0120-920-678</p>
 <p class='footer__contents__info__time'>【受付時間】8:00~20:00</p>
 </div>
-</a><a class="footer__mail" href="/root/info">ご相談
+</a><a class="footer__mail" href="<?php echo home_url("お問い合わせ"); ?>">ご相談
 <br class='hidden-res'>
 お見積り
 </a></div>

@@ -1,0 +1,332 @@
+.service_main {
+  &__photo {
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+      opacity: .8;
+      object-fit: cover;
+    }
+    &__title {
+      color: #fff;
+      text-align: center;
+      background: rgba(255, 165, 0, 0.9);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      padding: 1rem 4rem 1rem 4rem;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    // お問い合わせview修正
+    &__title#thanks {
+      width: 100%;
+    }
+  }
+}
+.service_contents {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5rem;
+  &__title {
+    margin: 3rem 0;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    &__photo {
+      width: 50%;
+      img {
+        width: 100%;
+        opacity: .7;
+      }
+    }
+    &__textbox {
+      width: 50%;
+      margin-left: 2.5rem;
+      &__title {
+        text-align: center;
+        border-bottom: 2px solid darkorange;
+        span {
+          font-size: 1.5rem;
+        }
+      }
+      &__description {
+        span{
+          margin-top: 1rem;
+          display: block;
+          line-height: 2rem;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+  .president-container{
+    .president-photo{
+      width: 30%;
+    }
+    .president-textbox{
+      width: 60%;
+      margin: 0 2.5rem 0 0;
+    }
+  }
+  .example-box{
+    padding: 0;
+  }
+  &__fee {
+
+    &__inner {
+      text-align: center;
+
+      span {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 28px 10px;
+        border-radius: 10px;
+        background: orange;
+        font-size: 2rem;
+        color: #fff;
+      }
+      span::before {
+        bottom: -50px;
+        border: 25px solid transparent;
+        border-top: 25px solid orange;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        content: "";
+      }
+
+    }
+  }
+  &__price {
+    font-size: 3rem;
+    display: table;
+    margin: 20px auto 50px;
+    padding-left: 0.2em;
+    background: linear-gradient(rgba(0, 0, 0, 0) 80%, rgba(255, 255, 0, 0.7) 80%);
+    color: darkorange;
+    font-weight: bold;
+    text-align: center;
+
+    .small{
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.service_area {
+  margin: 70px auto;
+
+  &__title {
+    text-align: center;
+    border-bottom: 3px solid darkorange;
+    margin-bottom: 30px;
+  }
+
+  &__block {
+    font-size: 1.3rem;
+    line-height: 1.8;
+
+    &__ttl {
+      margin: 0 0 20px;
+      font-size: 1.3rem;
+      position: relative;
+      padding-left: 1.5em;
+      font-weight: bold;
+    }
+    &__text {
+      margin-bottom: 2.0em;
+      font-size: 1rem;
+    }
+    &__ttl::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: orange;
+      content: "■";
+    }
+  }
+}
+
+//レスポンシブ
+@media screen and (max-width: 1023px) {
+  .service_main {
+    &__photo{
+      width: 100%;
+      position: relative;
+      background: orange;
+      height: 10rem;
+
+      img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .2;
+    }
+      &__title {
+        padding: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color: rgba($color: #fff, $alpha: 0);
+        color:  #fff;
+      }
+    }
+  }
+
+  .service_contents {
+    width: 100%;
+    padding: 0 3.5rem;
+    &__title:first-child{
+      margin: 5rem 0 0 0;
+    }
+    &__title {
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: bold;
+      border-bottom: 2px solid orange;
+      margin: 2rem 0;
+    }
+
+    &__container {
+      margin-top: 2rem;
+      display: block;
+
+      &__photo {
+        width: 100%;
+        img {
+          width: 100%;
+          opacity: .7;
+        }
+      }
+      &__textbox {
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+        &__title {
+          border-bottom: 2px solid darkorange;
+          text-align: center;
+          span {
+            font-size: 1.1rem;
+          }
+        }
+        &__description {
+          padding: 0;
+          span{
+            font-size: 0.9rem;
+            line-height: 1.5rem;
+          }
+        }
+      }
+      &__photo-right {
+        display: none;
+      }
+    }
+    .president-container{
+      display: flex;
+      .president-photo{
+        width: 40%;
+      }
+      .president-textbox{
+        width: 60%;
+      }
+    }
+    &__fee {
+
+      &__inner {
+        text-align: center;
+
+        span {
+          position: relative;
+          display: inline-block;
+          width: 85%;
+          max-width: 480px;
+          margin: 0 auto;
+          padding: 18px 7px;
+          border-radius: 10px;
+          background: orange;
+          font-size: 1.5rem;
+          color: #fff;
+        }
+        span::before {
+          bottom: -50px;
+          border: 25px solid transparent;
+          border-top: 25px solid orange;
+          position: absolute;
+          left: 50%;
+          -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+          content: "";
+        }
+
+      }
+    }
+    &__price {
+      font-size: 2rem;
+      display: table;
+      margin: 20px auto 50px;
+      padding-left: 0.2em;
+      background: linear-gradient(rgba(0, 0, 0, 0) 80%, rgba(255, 255, 0, 0.7) 80%);
+      color: darkorange;
+      font-weight: bold;
+      text-align: center;
+
+      .small{
+        font-size: .7rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:639px){
+  .service_main {
+    &__photo{
+      &__title {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .service_contents {
+    padding: 0 1.5rem;
+    &__title {
+      font-size: 1.1rem;
+    }
+    &__container{
+      &__textbox {
+        &__title {
+          margin: 0 2rem;
+          span {
+            font-size: 1rem;
+          }
+        }
+        &__description {
+          font-size: 0.8rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+    .president-container{
+      display: block;
+      .president-photo{
+        width: 60%;
+        margin: 0 auto;
+      }
+      .president-textbox{
+        width: 100%;
+      }
+    }
+  }
+}
