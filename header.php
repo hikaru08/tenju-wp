@@ -7,8 +7,8 @@
     <title>滋賀の遺品整理・生前整理なら『天授』 | 株式会社天授</title>
     <meta name="author" content="tenju" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri()?>/images/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri()?>/images/favicon.ico" type="image/vnd.microsoft.icon">
   </head>
 
 <body>
