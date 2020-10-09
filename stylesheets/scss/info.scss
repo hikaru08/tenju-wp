@@ -52,12 +52,12 @@
         }
         &__post{
           display: flex;
-          span{
+          .zip-sign{
             margin: 0.5rem;
           }
           .postcode-box{
             height: 2.5rem;
-            width: 5.5rem;
+            max-width: 150px;
           }
         }
         .select-box::before{
@@ -121,32 +121,37 @@
       margin-top: 2rem;
       text-align: center;
     }
-    &__button{
+    &__container{
       display: flex;
       justify-content: center;
-      text-align: center;
-      margin-top: 1rem;
-      .submit-btn:hover, .btn-primary:hover{
-        font-size: 1.2rem;
-        font-weight: bold;
+      &__button{
+        display: flex;
+        justify-content: center;
         text-align: center;
-        cursor: pointer;
-        padding: 1.2rem 2rem;
-        border: darkorange solid 1px;
-        background: #fff;
-        color: darkorange;
-      }
-      .submit-btn , .btn-primary{
-        margin: 1rem;
-        font-size: 1.2rem;
-        font-weight: bold;
-        text-align: center;
-        cursor: pointer;
-        padding: 1.2rem 2rem;
-        border: darkorange solid 1px;
-        background: darkorange;
-        color: #fff;
-        transition: .3s;
+        margin-top: 1rem;
+        .submit-btn:hover, .btn-primary:hover{
+          font-size: 1.2rem;
+          font-weight: bold;
+          text-align: center;
+          cursor: pointer;
+          padding: 1.2rem 2rem;
+          border: darkorange solid 1px;
+          background: #fff;
+          color: darkorange;
+        }
+        .submit-btn , .btn-primary{
+          min-width: 140px;
+          margin: 1rem;
+          font-size: 1.2rem;
+          font-weight: bold;
+          text-align: center;
+          cursor: pointer;
+          padding: 1.2rem 2rem;
+          border: darkorange solid 1px;
+          background: darkorange;
+          color: #fff;
+          transition: .3s;
+        }
       }
     }
   }
@@ -154,19 +159,6 @@
 .info-discription{
   margin-top: 1rem;
   text-align: center;
-}
-.info-error{
-  margin-top: 1.5rem;
-  color: red;
-  .error{
-    ul{
-      padding: 0;
-      margin: 0;
-      li{
-        text-align: center;
-      }
-    }
-  }
 }
 @media screen and (max-width:1023px){
   .info{
@@ -215,4 +207,13 @@
       text-align: left;
       width: 85%;
     }
+}
+
+.mw_wp_form_confirm{
+  .select-box::before{
+    display: none;
+  }
+  .info__submit__attention, .info__submit__check{
+    display: none;
+  }
 }

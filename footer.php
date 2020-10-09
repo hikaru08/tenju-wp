@@ -1,3 +1,5 @@
+<?php wp_footer(); ?>  
+
 <div class='main-footer'>
 <div class='main-footer__top-btn'>
 <a id="return-top" class="return-top" href="#wrap">▲</a>
