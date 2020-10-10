@@ -51,7 +51,7 @@
 <div class='footer__btn'></div>
 <a class="footer__contents" href="tel:0120920678"><p class='footer__contents__title'>お電話でのお問い合わせはこちら</p>
 <div class='footer__contents__info'>
-<p class='footer__contents__info__tel' style="background: url(<?php echo get_template_directory_uri()?>/images/freecall.png) no-repeat left center;">0120-920-678</p>
+<p class='footer__contents__info__tel'>0120-920-678</p>
 <p class='footer__contents__info__time'>【受付時間】8:00~20:00</p>
 </div>
 </a><a class="footer__mail" href="<?php echo home_url("お問い合わせ"); ?>">ご相談

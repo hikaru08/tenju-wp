@@ -232,6 +232,7 @@
 
       &__tel{
         margin: 0;
+        background: url("/wp-content/themes/tenju-wp/images/freecall.png") no-repeat left center;
         color: darkorange;
         font-weight: bold;
       }
@@ -361,7 +362,7 @@
       display: block;
       margin-bottom: 1px;
       font-size: 0.3rem;
-      font-family: FontAwesome;
+      font-family: "Font Awesome 5 Free";
       content: "\f0e0";
     }
   }
