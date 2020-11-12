@@ -227,7 +227,7 @@ STEP1-
 <div class='index__container__service__content__menu'>
 <div class='index__container__service__content__menu__recovery'>
 <img alt="語らう三世代家族" src="<?php echo get_template_directory_uri()?>/images/family.jpg" />
-<a href="/root/recovery"><p class='title'>
+<a href="<?php echo home_url("遺品整理"); ?>"><p class='title'>
 <i class="fa fa-check-circle"></i>
 遺品整理
 </p>
@@ -237,7 +237,7 @@ STEP1-
 </div>
 <div class='index__container__service__content__menu__cleaning'>
 <img alt="荷物を積んだ軽トラ" src="<?php echo get_template_directory_uri()?>/images/baggage.png" />
-<a href="/root/cleaning"><p class='title'>
+<a href="<?php echo home_url("家財整理"); ?>"><p class='title'>
 <i class="fa fa-check-circle"></i>
 家財整理
 </p>
@@ -247,7 +247,7 @@ STEP1-
 </div>
 <div class='index__container__service__content__menu__lifesupport'>
 <img alt="家事をする女性" src="<?php echo get_template_directory_uri()?>/images/support.jpg" />
-<a href="/root/lifesupport"><p class='title'>
+<a href="<?php echo home_url("生活サポート"); ?>"><p class='title'>
 <i class="fa fa-check-circle"></i>
 生活サポート
 </p>

@@ -31,7 +31,7 @@
 <a href="<?php echo home_url("料金一覧"); ?>">料金一覧</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
-<a href="<?php echo home_url("実績紹介"); ?>">実績紹介</a>
+<a href="<?php echo home_url("作業事例"); ?>">作業事例</a>
 </li>
 <li class='main-footer__contents__nav__list__item'>
 <a href="<?php echo home_url("会社概要"); ?>">会社概要</a>
