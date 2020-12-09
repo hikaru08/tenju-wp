@@ -80,6 +80,10 @@ Template Name: company
 <td>住空間整理サービス</td>
 </tr>
 <tr>
+<th>古物商許可番号</th>
+<td>第60109R020015号</td>
+</tr>
+<tr>
 <th>取引銀行</th>
 <td>滋賀銀行・滋賀中央信用金庫</td>
 </tr>
