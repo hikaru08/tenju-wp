@@ -25,10 +25,10 @@
 </div>
 <ul class='header__right__list'>
 <li>
-<a href="<?php echo home_url("遺品整理"); ?>">遺品整理
+<a href="<?php echo home_url("家財整理"); ?>">家財整理
 </a></li>
 <li>
-<a href="<?php echo home_url("家財整理"); ?>">家財整理
+<a href="<?php echo home_url("遺品整理"); ?>">遺品整理
 </a></li>
 <li>
 <a href="<?php echo home_url("生活サポート"); ?>">生活サポート
@@ -49,10 +49,10 @@
 <div class='navi'>
 <ul>
 <li>
-<a href="<?php echo home_url("遺品整理"); ?>">遺品整理
+<a href="<?php echo home_url("家財整理"); ?>">家財整理
 </a></li>
 <li>
-<a href="<?php echo home_url("家財整理"); ?>">家財整理
+<a href="<?php echo home_url("遺品整理"); ?>">遺品整理
 </a></li>
 <li>
 <a href="<?php echo home_url("生活サポート"); ?>">生活サポート

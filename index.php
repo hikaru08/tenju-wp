@@ -225,16 +225,6 @@ STEP1-
 </div>
 <div class='index__container__service__content'>
 <div class='index__container__service__content__menu'>
-<div class='index__container__service__content__menu__recovery'>
-<img alt="語らう三世代家族" src="<?php echo get_template_directory_uri()?>/images/family.jpg" />
-<a href="<?php echo home_url("遺品整理"); ?>"><p class='title'>
-<i class="fa fa-check-circle"></i>
-遺品整理
-</p>
-</a><span class='discription'>
-遺品はただの物ではありません。わたしたちは、お客様のニーズに合わせた親切・丁寧な対応を心がけています。
-</span>
-</div>
 <div class='index__container__service__content__menu__cleaning'>
 <img alt="荷物を積んだ軽トラ" src="<?php echo get_template_directory_uri()?>/images/baggage.png" />
 <a href="<?php echo home_url("家財整理"); ?>"><p class='title'>
@@ -243,6 +233,16 @@ STEP1-
 </p>
 </a><span class='discription'>
 生前整理、不用品整理など、身の回りのものを整理することで心も前向きになれるお手伝いを致します。
+</span>
+</div>
+<div class='index__container__service__content__menu__recovery'>
+<img alt="語らう三世代家族" src="<?php echo get_template_directory_uri()?>/images/family.jpg" />
+<a href="<?php echo home_url("遺品整理"); ?>"><p class='title'>
+<i class="fa fa-check-circle"></i>
+遺品整理
+</p>
+</a><span class='discription'>
+遺品はただの物ではありません。わたしたちは、お客様のニーズに合わせた親切・丁寧な対応を心がけています。
 </span>
 </div>
 <div class='index__container__service__content__menu__lifesupport'>
