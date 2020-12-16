@@ -284,6 +284,14 @@
       }
     }
   }
+  .index__container__image__permit{
+    position: absolute;
+    top: 25%;
+    left: 125px;
+    img{
+      width: 47%;
+    }
+  }
   .index__container__image__info-box{
     position: absolute;
     bottom: 2rem;
@@ -316,6 +324,13 @@
           &__catch{
             span{
             }
+          }
+        }
+        &__permit{;
+          margin-top: 30px;
+          text-align: center;
+          img{
+            max-width: 400px;
           }
         }
         &__info-box{
@@ -420,6 +435,12 @@
       }
     }
     &__image{
+      &__permit{;
+        margin-top: 20px;
+        img{
+          width: 70%;
+        }
+      }
       &__info-box{
         padding: 0.5rem 1.5rem 1rem 1.5rem;
         &__content{

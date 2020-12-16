@@ -6,6 +6,9 @@
 <div class='index__container__image__text-zone'>
 <div class='index__container__image__text-zone__catch'></div>
 </div>
+<div class="index__container__image__permit">
+<img alt="一般廃棄物処理許可業者" src="<?php echo get_template_directory_uri()?>/images/haiki.png" />
+</div>
 <div class='index__container__image__info-box'>
 <div class='index__container__image__info-box__title'>
 <span>新着のお知らせ</span>
