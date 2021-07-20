@@ -115,7 +115,7 @@ Template Name: recovery
 </p>
 <p class='plan__contents__body__reference__box__right__text'>
 <span class='plan__contents__body__reference__box__right__text__caution'>
-人件費・車両費は別途必要となります。(作業内容・作業場所により決定)
+人件費、車両費は作業内容、作業場所、重量により別途必要となる場合があります。
 </span>
 <span class='plan__contents__body__reference__box__right__text__caution'>
 料金はあくまでも目安です。実際の物量により変動いたします。
@@ -378,7 +378,7 @@ Template Name: recovery
 </p>
 <p class='plan__contents__body__reference__box__right__text'>
 <span class='plan__contents__body__reference__box__right__text__caution'>
-人件費・車両費は別途必要となります。(作業内容・作業場所により決定)
+人件費、車両費は作業内容、作業場所、重量により別途必要となる場合があります。
 </span>
 <span class='plan__contents__body__reference__box__right__text__caution'>
 料金はあくまでも目安です。
